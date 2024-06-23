@@ -55,14 +55,12 @@ class ProductsController extends BaseController
                         $data = $request->validated();
                         $product = Product::firstOrCreate($data);
                         return ProductResource::make($product);
-
                     }
                 }
             }
 
 
     }
-
 
 
     /**

@@ -27,7 +27,3 @@ Route::resource('types', \App\Http\Controllers\TypeController::class);
 
 
 Route::get('/products', [ProductsController::class, 'index'])->name('index');
-
-
-
-
